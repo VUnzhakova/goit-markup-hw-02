@@ -4,3 +4,64 @@
   --accent-color: #2196f3;
   --two-accent-color: #ffffff;
 }
+
+/*  header content */
+.logo {
+  color: #000000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+/*  header nav content */
+.site-nav .link {
+  color: var(--main-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/*  header contact content */
+.contact-link .contact {
+  color: var(--secondary-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.contact-link .contact:hover,
+.contact-link .contact:focus {
+  color: var(--accent-color);
+}
+/*  hero section */
+.hero {
+  background: #2f303a;
+  color: var(--two-accent-color);
+}
+.hero-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+.hero-button {
+  background-color: var(--accent-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--two-accent-color);
+}
