@@ -4,7 +4,8 @@
   --accent-color: #2196f3;
   --two-accent-color: #ffffff;
 }
-
+.boxes {
+  list-style-type: none;
 body {
   font-family: Roboto, sans-serif;
 }
@@ -53,6 +54,10 @@ body {
   text-decoration: none;
   list-style-type: none;
 }
+.contact-link,
+.site-nav {
+  list-style-type: none;
+}
 /*  hero section */
 button {
   font-family: inherit;
@@ -61,20 +66,86 @@ button {
 .hero {
   background: #2f303a;
   color: var(--two-accent-color);
-  text-decoration: none;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
 }
 .hero-text {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--two-accent-color);
 }
 .hero-button {
   background-color: var(--accent-color);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   color: var(--two-accent-color);
   text-decoration: none;
   list-style-type: none;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 }
+/*  Наши преимущества */
+.benefit-list {
+  list-style-type: none;
+}
+
+.benefit {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.benefit-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+}
+/*  Чем мы занимаемся */
+.header-section {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.boxes {
+  list-style-type: none;
+}
+/*  Наша команда */
+.manager {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19px;
+color: var(--main-color);
+}
+.profession 
+{
+font-size: 16px;
+line-height: 1.19px;
+color: var(--secondary-color)}
