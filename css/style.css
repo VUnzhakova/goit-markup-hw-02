@@ -15,8 +15,12 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
-
+.logo-accent {
+  color: var(--accent-color);
+  text-decoration: none;
+}
 /*  header nav content */
 .site-nav .link {
   color: var(--main-color);
@@ -24,10 +28,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
+  list-style-type: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 /*  header contact content */
@@ -37,23 +44,30 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
+  list-style-type: none;
 }
 .contact-link .contact:hover,
 .contact-link .contact:focus {
   color: var(--accent-color);
+  text-decoration: none;
+  list-style-type: none;
 }
 /*  hero section */
 button {
   font-family: inherit;
+  text-decoration: none;
 }
 .hero {
   background: #2f303a;
   color: var(--two-accent-color);
+  text-decoration: none;
 }
 .hero-text {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-decoration: none;
 }
 .hero-button {
   background-color: var(--accent-color);
@@ -61,4 +75,6 @@ button {
   font-size: 16px;
   line-height: 1.87;
   color: var(--two-accent-color);
+  text-decoration: none;
+  list-style-type: none;
 }
