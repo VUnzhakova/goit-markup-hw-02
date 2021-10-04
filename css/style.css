@@ -43,6 +43,9 @@ body {
   color: var(--accent-color);
 }
 /*  hero section */
+button {
+  font-family: inherit;
+}
 .hero {
   background: #2f303a;
   color: var(--two-accent-color);
