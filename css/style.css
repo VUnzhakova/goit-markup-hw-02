@@ -103,6 +103,11 @@ body {
 }
 
 /*  Наши преимущества */
+
+.header-benefits {
+  display: none;
+}
+
 .benefit-list {
   list-style-type: none;
 }
@@ -181,6 +186,10 @@ footer {
 /*  СТРАНИЦА ПОРТФОЛИО */
 
 /*  Наши проекты фильтры */
+
+.filter-hed {
+  display: none;
+}
 
 .filter-buttons {
   list-style-type: none;
