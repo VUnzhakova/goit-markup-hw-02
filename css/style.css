@@ -4,13 +4,13 @@
   --accent-color: #2196f3;
   --two-accent-color: #ffffff;
 }
-.boxes {
-  list-style-type: none;
-}
+
 body {
   font-family: Roboto, sans-serif;
 }
-/*  header content */
+
+/*  Шапка сайта */
+
 .logo {
   color: #000000;
   font-family: Raleway, cursive;
@@ -19,11 +19,11 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
+
 .logo-accent {
   color: var(--accent-color);
-  text-decoration: none;
 }
-/*  header nav content */
+
 .site-nav .link {
   color: var(--main-color);
   font-weight: 500;
@@ -31,15 +31,14 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  list-style-type: none;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
-  text-decoration: none;
 }
 
-/*  header contact content */
+/*  Шапка контакты */
 .contact-link .contact {
   color: var(--secondary-color);
   font-weight: 500;
@@ -47,23 +46,19 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  list-style-type: none;
 }
+
 .contact-link .contact:hover,
 .contact-link .contact:focus {
   color: var(--accent-color);
-  text-decoration: none;
-  list-style-type: none;
 }
+
 .contact-link,
 .site-nav {
   list-style-type: none;
 }
-/*  hero section */
-button {
-  font-family: inherit;
-  text-decoration: none;
-}
+/*  Герой */
+
 .hero {
   background: #2f303a;
   color: var(--two-accent-color);
@@ -102,26 +97,28 @@ button {
   left: 700px;
   top: 430px;
 }
+.hero-button :focus,
+.hero-button :hover {
+  background-color: #188ce8;
+}
+
 /*  Наши преимущества */
 .benefit-list {
   list-style-type: none;
 }
 
 .benefit {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 0.87;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .benefit-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  color: #757575;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 /*  Чем мы занимаемся */
@@ -130,36 +127,40 @@ button {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 0.85;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
+
 .boxes {
   list-style-type: none;
 }
+
 /*  Наша команда */
 .manager {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19px;
   color: var(--main-color);
+  letter-spacing: 0.03em;
 }
 .profession {
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   color: var(--secondary-color);
+  letter-spacing: 0.03em;
 }
-/*  Подвал страницы */
+/*  Подвал сайта */
 .boxes .address-link {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.71px;
-
+  line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .boxes .address-link:focus,
 .boxes .address-link:hover {
