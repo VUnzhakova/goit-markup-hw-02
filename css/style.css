@@ -177,3 +177,22 @@ footer {
   line-height: 1.19;
   text-decoration: none;
 }
+
+/*  СТРАНИЦА ПОРТФОЛИО */
+
+/*  Наши проекты фильтры */
+.filter-btn {
+  color: var(--main-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+}
+.filter-buttons .filter-btn :hover,
+.filter-buttons .filter-btn :focus {
+  color: var(--two-accent-color);
+  background-color: var(--accent-color);
+}
