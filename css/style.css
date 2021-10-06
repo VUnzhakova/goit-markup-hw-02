@@ -97,8 +97,8 @@ body {
   left: 700px;
   top: 430px;
 }
-.hero-button :focus,
-.hero-button :hover {
+.hero-button:focus,
+.hero-button:hover {
   background-color: #188ce8;
 }
 
@@ -167,7 +167,7 @@ body {
   color: var(--two-accent-color);
 }
 footer {
-  background-color: var(--main-color);
+  background-color: #2f303a;
 }
 .logo-footer {
   color: var(--two-accent-color);
@@ -181,6 +181,16 @@ footer {
 /*  СТРАНИЦА ПОРТФОЛИО */
 
 /*  Наши проекты фильтры */
+
+.filter-buttons {
+  list-style-type: none;
+}
+.filter-buttons button:hover,
+.filter-buttons button:focus {
+  color: var(--two-accent-color);
+  background-color: var(--accent-color);
+}
+
 .filter-btn {
   color: var(--main-color);
   font-family: Roboto;
@@ -191,8 +201,20 @@ footer {
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
 }
-.filter-buttons .filter-btn :hover,
-.filter-buttons .filter-btn :focus {
-  color: var(--two-accent-color);
-  background-color: var(--accent-color);
+/*  Галерея проектов*/
+.gal-projects {
+  list-style-type: none;
+}
+.project-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-txt {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
