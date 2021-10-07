@@ -33,6 +33,15 @@ body {
   text-decoration: none;
 }
 
+.current {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -78,6 +87,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   color: var(--two-accent-color);
+  cursor: pointer;
 }
 .hero-button:focus,
 .hero-button:hover {
@@ -191,13 +201,14 @@ footer {
   line-height: 1.6;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 /*  Галерея проектов*/
 .gal-projects {
   list-style-type: none;
 }
 .project-name {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
