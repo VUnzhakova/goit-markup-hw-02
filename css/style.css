@@ -13,8 +13,8 @@ body {
 
 .logo {
   color: #000000;
-  font-family: Raleway, cursive;
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -62,21 +62,11 @@ body {
 .hero {
   background: #2f303a;
   color: var(--two-accent-color);
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
 }
 .hero-text {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--two-accent-color);
@@ -84,18 +74,10 @@ body {
 .hero-button {
   background-color: var(--accent-color);
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   color: var(--two-accent-color);
-  text-decoration: none;
-  list-style-type: none;
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
 }
 .hero-button:focus,
 .hero-button:hover {
@@ -113,7 +95,7 @@ body {
 }
 
 .benefit {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 0.87;
   letter-spacing: 0.03em;
@@ -128,9 +110,7 @@ body {
 }
 /*  Чем мы занимаемся */
 .header-section {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 0.85;
   text-align: center;
@@ -157,11 +137,14 @@ body {
   letter-spacing: 0.03em;
 }
 /*  Подвал сайта */
+
+address {
+  font-style: normal;
+}
+
 .boxes .address-link {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -176,8 +159,8 @@ footer {
 }
 .logo-footer {
   color: var(--two-accent-color);
-  font-family: Raleway, cursive;
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -194,8 +177,8 @@ footer {
 .filter-buttons {
   list-style-type: none;
 }
-.filter-buttons button:hover,
-.filter-buttons button:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   color: var(--two-accent-color);
   background-color: var(--accent-color);
 }
@@ -203,7 +186,6 @@ footer {
 .filter-btn {
   color: var(--main-color);
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
